@@ -60,14 +60,13 @@ grid-row-gap: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 0 1em;
+  padding-left: 1em;
 }
 
 .home h2 {
   color:rgb(220, 248, 253);
   font-size: 2rem;
   margin: 0;
-  padding-left: 0.5em;
 }
 
 .home img {
