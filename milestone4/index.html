@@ -1,113 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ausy Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="parent">
-    <div class="grid-item background1"></div>
-    <div class="grid-item background2"></div>
-    <div class="grid-item ausyicon">
+  <div class="background"></div>
+
+  <header class="site-header">
+    <div class="logo">
       <a href="index.html">
-        <img src="ausyhaha.png" alt="Ausy icon">
+        <img src="ausyhaha.png" alt="Ausy icon"/>
       </a>
     </div>
-    <div class="grid-item header">
-      <header>
-        <h1><a href = "index.html">ausyoz.com</a></h1>
-      </header>
-    </div>
-    <div class="grid-item main">
-      <main>
-        <h1>Hello,&nbsp;<span class="changeup">I'm Ausy!</span></h1>
-        <h4>hobbyist programmer, illustrator, and writer.</h4>
-      </main>
-    </div>
-    <div class="grid-item nav">
-      <nav>
-        <ul>
-          <li>
-            <a href="about.html">
-              <img src="iconabout.png" alt = "about icon">
-              <span>about</span>
-            </a>
-          </li>
-          <li>
-            <a href="socials.html">
-              <img src="iconsocials.png" alt="socials icon">
-              <span>socials</span>
-            </a>
-          </li>
-          <li>
-            <a href="work.html">
-              <img src="iconwork.png" alt="work icon">
-              <span>work</span>
-            </a>
-          </li>
-          <li>
-            <a href="faq.html">
-              <img src="iconfaq.png" alt="faq icon">
-              <span>faq</span>
-            </a>
-          </li>
-          <li><a href="contact.html">
-              <img src="iconcontact.png" alt="contact icon">
-              <span>contact</span>
-          </a>
-        </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="grid-item home">
-        <h2>home</h2>
-        <img src="iconlightmode.png" alt="light mode icon">
-    </div>
-    <div class="grid-item footer">
-      <footer>
-        Copyright &copy; 2025 Austin Sundloff<br>
-      </footer>
-    </div>
-    <div class="grid-item text1">
-      <h1>welcome to my website!</h1>
-    </div>
-    <div class="grid-item text4">
-      <h1>thanks for stopping by.</h1>
-    </div>
-    <div class="grid-item text2">
-      <h1>feel free to browse, and learn more about me.</h1>
-    </div>
-    <div class="grid-item text5">
-      <h1>my current project: chapter 1 of my web comic.</h1>
-    </div>
-    <div class="grid-item text3">
-      <h1>quick links down below! :D</h1>
-    </div>
-    <div class="grid-item links">
+    <h1><a href="index.html">ausyoz.com</a></h1>
+  </header><section class="home-bar">
+    <h2>home</h2>
+    <img src="iconlightmode.png" alt="light mode icon"/>
+  </section>
+
+  <main class="main-content">
+    <section class="intro">
+      <h1>Hello, <span class="changeup">I'm Ausy!</span></h1>
+      <h4>hobbyist programmer, illustrator, and writer.</h4>
+    </section>
+
+    <nav class="site-nav">
       <ul>
-        <li>
-          <a href="https://x.com/AusyOz">
-            <img src ="iconx.png" alt="x icon">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ausyoz/">
-            <img src="iconinstagram.png" alt="instagram icon">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/@ausyoz">
-            <img src="iconyoutube.png" alt="youtube icon">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.tiktok.com/@ausyoz">
-            <img src="icontiktok.png" alt="tiktok icon">
-          </a>
+        <li><a href="about.html"><img src="iconabout.png" alt="about icon"/><span>about</span></a></li>
+        <li><a href="socials.html"><img src="iconsocials.png" alt="socials icon"/><span>socials</span></a></li>
+        <li><a href="work.html"><img src="iconwork.png" alt="work icon"/><span>work</span></a></li>
+        <li><a href="faq.html"><img src="iconfaq.png" alt="faq icon"/><span>faq</span></a></li>
+        <li><a href="contact.html"><img src="iconcontact.png" alt="contact icon"/><span>contact</span></a></li>
       </ul>
-    </div>
-  </div>
+    </nav>
+  </main>
+
+  <section class="text-section">
+    <h1>welcome to my website!</h1>
+    <h1>thanks for stopping by.</h1>
+    <h1>feel free to browse, and learn more about me.</h1>
+    <h1>my current project: chapter 1 of my web comic.</h1>
+    <h1>quick links down below! :D</h1>
+  </section>
+
+  <section class="social-links">
+    <ul>
+      <li><a href="https://x.com/AusyOz"><img src="iconx.png" alt="x icon"/></a></li>
+      <li><a href="https://www.instagram.com/ausyoz/"><img src="iconinstagram.png" alt="instagram icon"/></a></li>
+      <li><a href="https://www.youtube.com/@ausyoz"><img src="iconyoutube.png" alt="youtube icon"/></a></li>
+      <li><a href="https://www.tiktok.com/@ausyoz"><img src="icontiktok.png" alt="tiktok icon"/></a></li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    Copyright &copy; 2025 Austin Sundloff
+  </footer>
 </body>
 </html>
