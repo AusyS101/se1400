@@ -12,12 +12,14 @@ body {
 
 header,
 .home-bar,
-main,
-.social-links,
-footer {
+main {
   grid-column: 2 / 8;
 }
-
+footer,
+.social-links,
+.text-section {
+  grid-column: 1 / 9;
+}
 .site-header {
   display: flex;
   background-color: rgba(239, 44, 44, 0.4);
@@ -34,7 +36,7 @@ footer {
 
 .main-content {
   display: grid;
-  grid-template-columns: subgrid;
+  grid-template-columns: repeat(6, minmax(0, 175px));
   grid-template-rows: auto auto;
   gap: 2rem;
   background-color: rgba(0, 255, 81, 0.4);
@@ -55,7 +57,6 @@ footer {
 .text-section {
   grid-column: 1 / 9;
   display: grid;
-  grid-template-columns: subgrid;
   padding: 1rem 0;
   background-color: rgba(255, 138, 28, 0.4);
 }
