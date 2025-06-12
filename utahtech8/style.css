@@ -46,6 +46,7 @@ nav {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 8;
+    z-index: 10;
 }
 
 nav ul {
