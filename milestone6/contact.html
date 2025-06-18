@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ausy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="internal-page">
+    <div class="contact-background"></div>
+
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="ausyhaha.png" alt="Ausy icon">
+            </a>
+        </div>
+        <h1><a href="index.html">ausyoz.com</a></h1>
+    </header>
+    <section class="home-bar">
+        <h2>contact</h2>
+        <a href="index.html"><img src="iconlightmode.png" alt="light mode icon"></a>
+    </section>
+
+    <main class="main-content">
+         <nav class="site-nav">
+            <ul>
+                <li><a href="about.html"><img src="iconabout.png" alt="about icon"><span>about</span></a></li>
+                <li><a href="socials.html"><img src="iconsocials.png" alt="socials icon"><span>socials</span></a></li>
+                <li><a href="work.html"><img src="iconwork.png" alt="work icon"><span>work</span></a></li>
+                <li><a href="faq.html"><img src="iconfaq.png" alt="faq icon"><span>faq</span></a></li>
+                <li><a href="contact.html"><img src="iconcontact.png" alt="contact icon"><span>contact</span></a></li>
+            </ul>
+        </nav>
+        <section class="about-intro">
+            <h2><span class="changeup">Ausy's Got Mail!</span></h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or social media!</p>
+        </section>
+        <section class ="contact-content">
+            <img src="Ausysgotmail.png" alt="Ausy got mail image">
+            <h2>Contact Information</h2>
+            <p>Email: <span class="changeup" id="copy-email" style="cursor: pointer;">ausyozx@gmail.com</span></p>
+            <p>Social Media: <span class="changeup">@ausyoz</span></p>
+        </section>
+    </main>
+
+    <section class="text-section">
+        <h2>welcome to my website!</h2>
+        <h2>thanks for stopping by.</h2>
+        <h2>feel free to browse, and learn more about me.</h2>
+        <h2>my current project: chapter 1 of my web comic.</h2>
+    </section>
+
+    <section class="social-links">
+        <h2>quick links down below! :D</h2>
+        <ul>
+            <li><a href="https://x.com/AusyOz"><img src="iconx.png" alt="x icon"></a></li>
+            <li><a href="https://www.instagram.com/ausyoz/"><img src="iconinstagram.png" alt="instagram icon"></a></li>
+            <li><a href="https://www.youtube.com/@ausyoz"><img src="iconyoutube.png" alt="youtube icon"></a></li>
+            <li><a href="https://www.tiktok.com/@ausyoz"><img src="icontiktok.png" alt="tiktok icon"></a></li>
+        </ul>
+    </section>
+
+    <footer class="site-footer">
+        Copyright &copy; 2025 Austin Sundloff
+    </footer>
+    <script>
+  document.getElementById('copy-email').addEventListener('click', function () {
+    const email = 'ausyozx@gmail.com';
+
+    navigator.clipboard.writeText(email)
+      .then(() => {
+        alert('Email copied to clipboard!');
+      })
+      .catch(err => {
+        alert('Failed to copy email: ' + err);
+      });
+  });
+</script>
+</body>
+
+</html>
